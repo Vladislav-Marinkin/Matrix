@@ -31,6 +31,8 @@ namespace Matrix
                 Console.WriteLine("5. Выход");
 
                 int option;
+
+                // проверка корректности ввода
                 while (!int.TryParse(Console.ReadLine(), out option))
                 {
                     Console.WriteLine("Некорректная опция. Пожалуйста, введите число.");
